@@ -12,4 +12,10 @@ class AuthController extends Controller
     function showLogin(){
         return view('authentication.login');
     }
+    function performLogin(){
+        
+    }
+    function performRegister(){
+        
+    }
 }
